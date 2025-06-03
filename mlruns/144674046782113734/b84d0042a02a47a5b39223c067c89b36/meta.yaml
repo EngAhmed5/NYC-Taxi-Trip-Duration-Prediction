@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Ahmed/Trip%20Duration%20Project/mlruns/144674046782113734/b84d0042a02a47a5b39223c067c89b36/artifacts
+end_time: 1748910340343
+entry_point_name: ''
+experiment_id: '144674046782113734'
+lifecycle_stage: active
+run_id: b84d0042a02a47a5b39223c067c89b36
+run_name: resilient-pig-729
+run_uuid: b84d0042a02a47a5b39223c067c89b36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748910244345
+status: 3
+tags: []
+user_id: Abd El Rahman Reda
