@@ -41,7 +41,7 @@ The **NYC Taxi Trip Duration Prediction** repository is organized as follows to 
 
 ---
 
-## 🧰 Tools & Libraries Used
+## Tools & Libraries Used
 
 - Python 3.x
 - Pandas, NumPy
@@ -53,7 +53,7 @@ The **NYC Taxi Trip Duration Prediction** repository is organized as follows to 
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 - Analyzed trip duration patterns by **weekday**, **month**, and **hour**.
 - Visualized heatmaps showing trip frequency by time and day.
@@ -63,7 +63,7 @@ The **NYC Taxi Trip Duration Prediction** repository is organized as follows to 
 
 ---
 
-## 🔧 Data Preprocessing & Feature Engineering
+## Data Preprocessing & Feature Engineering
 
 - Log transformation applied to trip duration and distance to normalize skewed distributions.
 - Polynomial features up to degree 5 used on numerical data to capture non-linear relationships.
@@ -72,7 +72,7 @@ The **NYC Taxi Trip Duration Prediction** repository is organized as follows to 
 
 ---
 
-## ⚙️ Modeling
+##  Modeling
 
 - **Model selected:** Ridge Regression with regularization parameter alpha=1.0.
 - **Pipeline includes:** preprocessing (scaling, polynomial feature expansion, encoding) followed by Ridge Regression.
@@ -80,7 +80,7 @@ The **NYC Taxi Trip Duration Prediction** repository is organized as follows to 
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 | Dataset    | RMSE   | R² Score   |
 |------------|--------|------------|
@@ -94,7 +94,7 @@ The **NYC Taxi Trip Duration Prediction** repository is organized as follows to 
 
 ---
 
-## 🔍 Important Notes
+## Important Notes
 
 - **Outliers Handling:** Outliers were **not removed** because polynomial features with degree 5 can cause overfitting on clean data. Keeping some noise and outliers helped maintain a balanced model without overfitting.
 - **Feature Selection:** Distance (in km) is the strongest predictor of trip duration. Speed and location features also contribute but with less impact.
