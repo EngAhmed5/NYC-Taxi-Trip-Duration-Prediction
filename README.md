@@ -6,20 +6,33 @@ This project aims to predict the **trip duration** of NYC yellow taxi rides base
 
 ## 📂 Project Structure
 
-├── Data/ # Contains train.csv, val.csv, test.csv datasets
-├── EDA/ # Exploratory Data Analysis notebook and visualizations
-├── mlruns/ # MLflow tracking artifacts for experiment management
-├── modeling and mlflow/ # Model scripts and pipeline
-│ ├── preprocessing.py # Data preprocessing pipeline
-│ ├── train.py # Model training script
-│ ├── test.py # Model testing script
-│ ├── trip_duration_mlflow.py # MLflow experiment tracking script
-│ ├── model.py # Model definition
-│ └── model.pkl # Trained model file
-├── NYC Taxi Trip Duration Prediction Report/ # Final project report (PDF)
-├── Score's Picture/ # Images showing model performance (train/val/test scores)
-├── predictions_sample.csv # Sample submission/predictions CSV file
-├── README.md # This file
+NYC-Taxi-Trip-Duration-Prediction/
+│
+├── Data/                             # Cleaned datasets (train.csv, val.csv, test.csv)
+│
+├── EDA/                              # Exploratory Data Analysis notebooks and visualizations
+│   └── eda_notebook.ipynb            # Insights and trends from the data
+│
+├── mlruns/                           # MLflow tracking directory (experiment metadata and artifacts)
+│
+├── modeling and mlflow/              # Model development and experiment tracking
+│   ├── preprocessing.py              # Preprocessing pipeline (e.g., encoding, scaling)
+│   ├── train.py                      # Training script for the machine learning model
+│   ├── test.py                       # Evaluation script for performance testing
+│   ├── trip_duration_mlflow.py      # MLflow experiment management and logging
+│   ├── model.py                      # Model architecture and wrapper
+│   └── model.pkl                     # Final trained model (serialized with pickle)
+│
+├── NYC Taxi Trip Duration Prediction Report/  # Final technical report (PDF format)
+│   └── report.pdf
+│
+├── Score's Picture/                  # Visualizations of model performance metrics
+│   ├── train_val_scores.png
+│   └── test_scores.png
+│
+├── predictions_sample.csv           # Sample output predictions (CSV format)
+│
+└── README.md                         # Project overview and documentation
 
 ---
 
